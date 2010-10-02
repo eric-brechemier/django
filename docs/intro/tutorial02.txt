@@ -176,6 +176,13 @@ to construct a default form representation. Often, you'll want to customize how
 the admin form looks and works. You'll do this by telling Django the options
 you want when you register the object.
 
+--------------------------------- P2PU ---------------------------------------
+  "Take a few minutes to marvel at all the code you didn't have to write."
+I do. Following the tutorials, I got up and running developing my own app,
+with a working admin in just a couple of hours. With no prior knowledge of
+Python. Amazing.
+------------------------------------------------------------------------------
+
 Let's see how this works by re-ordering the fields on the edit form. Replace
 the ``admin.site.register(Poll)`` line with::
 

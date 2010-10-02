@@ -63,6 +63,14 @@ within your Python installation. Consider symlinking to :doc:`django-admin.py
 </ref/django-admin>` from some place on your path, such as
 :file:`/usr/local/bin`.
 
+--------------------------------- P2PU ---------------------------------------
+Note: on Ubuntu, the command was simply ``django-admin startproject mysite``.
+The django-admin.py script is located in /usr/lib/python-django/bin/, which is
+not part of the PATH after the installation of python-django package.
+There is a copy of the script, named django-admin (without extension) in the
+folder /usr/bin, which is on the PATH.
+------------------------------------------------------------------------------
+
 .. admonition:: Where should this code live?
 
     If your background is in PHP, you're probably used to putting code under the
@@ -350,6 +358,25 @@ to a single Poll. Django supports all the common database relationships:
 many-to-ones, many-to-manys and one-to-ones.
 
 .. _`Python path`: http://docs.python.org/tutorial/modules.html#the-module-search-path
+
+----------------------------------- P2PU -------------------------------------
+This URL is unrelated to the previous section. At this point, a link to further
+details about database relationships in Django would be more helpful:
+
+Model field reference
+../ref/models/fields.txt
+
+or
+
+Model field reference - Relationship fields
+http://docs.djangoproject.com/en/dev/ref/models/fields/#module-django.db.models.fields.related
+
+Edit: this comes much later, at the end of the file
+  For more information on model relations, see :doc:`Accessing related objects
+  </ref/models/relations>`. For full details on the database API, see our
+  :doc:`Database API reference </topics/db/queries>`.
+------------------------------------------------------------------------------
+
 
 Activating models
 =================

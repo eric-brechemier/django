@@ -50,6 +50,12 @@ class BaseCommand(object):
     response; if you don't need to change any of that behavior,
     consider using one of the subclasses defined in this file.
 
+    ---------------------------- P2PU --------------------------------
+    Juicy. This is the description of the flow from manage.py started
+    on the shell to running the subcommand (e.g. 'runserver') provided
+    as argument.
+    ------------------------------------------------------------------
+
     If you are interested in overriding/customizing various aspects of
     the command-parsing and -execution behavior, the normal flow works
     as follows:

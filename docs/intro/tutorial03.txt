@@ -91,6 +91,10 @@ Time for an example. Edit ``mysite/urls.py`` so it looks like this::
         (r'^admin/', include(admin.site.urls)),
     )
 
+-------------------------------- P2PU ----------------------------------------
+This is the description of URL handling. Meaty stuff.
+------------------------------------------------------------------------------
+
 This is worth a review. When somebody requests a page from your Web site -- say,
 "/polls/23/", Django will load this Python module, because it's pointed to by
 the :setting:`ROOT_URLCONF` setting. It finds the variable named ``urlpatterns``
